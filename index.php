@@ -1,7 +1,7 @@
 <?php
 //fazendo conexao com banco de dados
 try {
-    $conexao = new \PDO("mysql:host=localhost;dbname=pdo","root","nXwww1786");
+    $conexao = new \PDO("mysql:host=localhost;dbname=pdo","root","wwwXXX");
    
     $query = "Select * from clientes where id=:id";
     
@@ -20,7 +20,7 @@ try {
    
 }
 catch(\PDOException $e){
-    echo "Não foi possível estabelecer sua conexão!?";
+    echo "NÃ£o foi possÃ­vel estabelecer sua conexÃ£o!?";
     echo "<br>Code: ".$e->getCode();
     echo "<br>Erro: ".$e->getMessage();
 }
